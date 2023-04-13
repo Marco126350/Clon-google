@@ -1,0 +1,114 @@
+ html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}     
+header a{
+    padding: 5px;
+    margin: 10px 3px;
+    text-decoration: none;
+    color: black;
+}
+    .enlaces-header:hover{
+        text-decoration: underline;
+    }
+    .grid:hover{
+        background-color: rgba(0, 0, 0, 10%);
+        border-radius: 50%;
+    }
+    .perfil:hover{
+        box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+        -webkit-box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+    }
+header a img{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
+main{
+    flex-grow: 1;
+    text-align: center;
+}
+    #logo{
+        width: 300px;
+        height: auto;
+        margin: 20px;
+    }
+    .busqueda{
+        display: inline-block;
+        border: thin solid rgba(0, 0, 0, 20%);
+        margin: 15px auto;
+        padding: 8px;
+        border-radius: 30px;
+        font-size: 18px;
+        }
+        .busqueda:hover{
+            box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+            -webkit-box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+            -moz-box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.27);
+        }
+    .input-search{
+            width: 500px;
+            height: 30px;
+            border: thin solid rgb(255, 255, 255);
+            outline: none;
+    }
+        .fa-camera{
+            margin-left: 10px;
+        }
+    .lupa{
+        color:rgba(0, 0, 0, 20%);
+        font-size: 14px;
+    }
+    .botones{
+        margin: 15px;
+    }
+    .botones a{
+       margin: 15px;
+       padding: 10px;
+       text-decoration: none;
+       color: black;
+       background-color: rgba(0, 0, 0, 3%);
+       border-radius: 5px;
+    }
+     .botones a:hover{
+        border: thin solid  rgba(0, 0, 0, 20%);
+     }
+
+
+.footer-link{
+    display:flex;
+    justify-content: space-between;
+    border: thin solid rgba(0, 0, 0, 5%);
+    padding: 10px;
+}
+
+.left a,
+.right a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color:rgba(0, 0, 0, 40%);
+
+}
+    .left a:hover,
+    .right a:hover{
+        text-decoration: underline;
+    }
